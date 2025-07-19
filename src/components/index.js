@@ -1,0 +1,10 @@
+export { default as Navbar } from "./navbar";
+export { default as StatCard } from "./statcard";
+export { default as ProgressBar } from "./progressbar";
+export { default as ActivityCard } from "./activitycard";
+export { default as HeroSection } from "./herosection";
+export { default as DemographicsSection } from "./demographicsection";
+export { default as UmkmSection } from "./umkmsection";
+export { default as TempatPentingSection } from "./tempatpentingsection";
+export { default as KegiatanSection } from "./kegiatansection";
+export { default as Footer } from "./footer";
