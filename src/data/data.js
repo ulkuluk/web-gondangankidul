@@ -55,9 +55,9 @@ export const umkmData = [
     deskripsi: "Menyediakan aneka keripik basreng renyah dan gurih.",
     koordinat: "-7.6724580,110.2723400",
     foto: [
-      "/images/basreng1.jpg",
-      "/images/basreng2.jpg",
-      "/images/basreng3.jpg"
+      `${process.env.PUBLIC_URL}/images/basreng1.jpg`,
+      `${process.env.PUBLIC_URL}/images/basreng2.jpg`,
+      `${process.env.PUBLIC_URL}/images/basreng3.jpg`
     ]
   },
   {
@@ -69,9 +69,9 @@ export const umkmData = [
     deskripsi: "Menyediakan jasa pembuatan emping melinjo dari biji melinjo mentah hingga menjadi emping siap konsumsi atau kering.",
     koordinat: "-7.6728120,110.2702100",
     foto: [
-      "/images/emping1.jpg",
-      "/images/emping2.jpg",
-      "/images/emping3.jpg"
+      `${process.env.PUBLIC_URL}/images/emping1.jpg`,
+      `${process.env.PUBLIC_URL}/images/emping2.jpg`,
+      `${process.env.PUBLIC_URL}/images/emping3.jpg`
     ]
   },
   {
@@ -83,9 +83,9 @@ export const umkmData = [
     deskripsi: "Warung yang menjual aneka barang kebutuhan sehari-hari dan berbagai jenis makanan.",
     koordinat: "-7.6726491,110.2699263",
     foto: [
-      "/images/tokoijo1.jpg",
-      "/images/tokoijo2.jpg",
-      "/images/tokoijo3.jpg"
+      `${process.env.PUBLIC_URL}/images/tokoijo1.jpg`,
+      `${process.env.PUBLIC_URL}/images/tokoijo2.jpg`,
+      `${process.env.PUBLIC_URL}/images/tokoijo3.jpg`
     ]
   },
   {
@@ -97,9 +97,9 @@ export const umkmData = [
     deskripsi: "Memproduksi dan menyediakan batako (blok beton).",
     koordinat: "-7.6705710,110.2722180",
     foto: [
-      "/images/batako1.jpg",
-      "/images/batako2.jpg",
-      "/images/batako3.jpg"
+      `${process.env.PUBLIC_URL}/images/batako1.jpg`,
+      `${process.env.PUBLIC_URL}/images/batako2.jpg`,
+      `${process.env.PUBLIC_URL}/images/batako3.jpg`
     ]
   },
   {
@@ -111,9 +111,9 @@ export const umkmData = [
     deskripsi: "Menyediakan jasa pembuatan dan penjualan aneka perabotan rumah tangga dari kayu.",
     koordinat: "-7.671640,110.273248",
     foto: [
-      "/images/mebel1.jpg",
-      "/images/mebel2.jpg",
-      "/images/mebel3.jpg"
+      `${process.env.PUBLIC_URL}/images/mebel1.jpg`,
+      `${process.env.PUBLIC_URL}/images/mebel2.jpg`,
+      `${process.env.PUBLIC_URL}/images/mebel3.jpg`
     ]
   },
 ];
@@ -127,9 +127,9 @@ export const tempatPenting = [
     deskripsi: "Masjid utama dusun, tempat sholat berjamaah dan kegiatan keagamaan.",
     koordinat: "-7.6697690,110.2727970",
     foto: [
-      "/images/masjid1.jpg",
-      "/images/masjid2.jpg",
-      "/images/masjid3.jpg"
+      `${process.env.PUBLIC_URL}/images/masjid1.jpg`,
+      `${process.env.PUBLIC_URL}/images/masjid2.jpg`,
+      `${process.env.PUBLIC_URL}/images/masjid3.jpg`
     ]
   },
   {
@@ -140,9 +140,9 @@ export const tempatPenting = [
     deskripsi: "Sumber mata air alami yang dimanfaatkan warga untuk kebutuhan sehari-hari.",
     koordinat: "-7.668591, 110.271853",
     foto: [
-      "/images/mataair1.jpg",
-      "/images/mataair2.jpg",
-      "/images/mataair3.jpg"
+      `${process.env.PUBLIC_URL}/images/mataair1.jpg`,
+      `${process.env.PUBLIC_URL}/images/mataair2.jpg`,
+      `${process.env.PUBLIC_URL}/images/mataair3.jpg`
     ]
   },
   {
@@ -153,9 +153,9 @@ export const tempatPenting = [
     deskripsi: "Musholla tempat sholat berjamaah dan kegiatan keagamaan.",
     koordinat: "-7.6720850,110.2717320",
     foto: [
-      "/images/musholla1.jpg",
-      "/images/musholla2.jpg",
-      "/images/musholla3.jpg"
+      `${process.env.PUBLIC_URL}/images/musholla1.jpg`,
+      `${process.env.PUBLIC_URL}/images/musholla2.jpg`,
+      `${process.env.PUBLIC_URL}/images/musholla3.jpg`
     ]
   }
 ];
