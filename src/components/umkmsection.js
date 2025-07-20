@@ -48,9 +48,6 @@ const UmkmSection = ({ umkmData, openMaps, onViewAll }) => {
             Usaha Mikro, Kecil, dan Menengah yang berkembang di dusun kami
           </p>
         </div>
-        
-        {/* Tombol Lihat Semua - Geser ke Kanan */}
-        {/* Tambahkan flex dan justify-end pada div pembungkus tombol */}
         <div className="flex justify-end"> {/* Ini adalah kunci untuk menggeser tombol ke kanan */}
           <button
             onClick={onViewAll}
