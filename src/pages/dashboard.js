@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import {
   dataDusun,
   dataKependudukan,
-  umkmData, 
+  umkmData,
   tempatPenting,
   dataKegiatan,
 } from "../data/data";
@@ -11,7 +11,7 @@ import {
   Navbar,
   HeroSection,
   DemographicsSection,
-  UmkmSection, 
+  UmkmSection,
   TempatPentingSection,
   KegiatanSection,
   Footer,
@@ -33,10 +33,20 @@ const Dashboard = () => {
 
   const openMaps = (koordinat) => {
     // Perbaikan: Pastikan koordinat tidak null atau undefined
-    if (koordinat && koordinat.length === 2) { // Menambahkan validasi array
-
-      const url = `http://maps.google.com/?q=${koordinat[0]},${koordinat[1]}`;
-      window.open(url, "_blank");
+    if (koordinat) {
+      // Memisahkan string koordinat menjadi lintang dan bujur
+      const parts = koordinat.split(',').map(part => part.trim());
+      
+      // Memastikan ada 2 bagian (lintang dan bujur)
+      if (parts.length === 2 && !isNaN(parseFloat(parts[0])) && !isNaN(parseFloat(parts[1]))) {
+        const latitude = parts[0];
+        const longitude = parts[1];
+        // Menggunakan URL Google Maps yang benar untuk pencarian koordinat
+        const url = `https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`;
+        window.open(url, "_blank");
+      } else {
+        alert("Koordinat tidak tersedia atau tidak valid.");
+      }
     } else {
       alert("Koordinat tidak tersedia atau tidak valid.");
     }
