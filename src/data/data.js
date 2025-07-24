@@ -123,7 +123,7 @@ export const umkmData = [
     alamat: "Dekat Balai Dusun",
     kontak: "+6285865341028",
     deskripsi: "Usaha kuliner yang menyajikan mie ayam dengan cita rasa khas",
-    koordinat: "-7.671640,110.273248",
+    koordinat: "-7.6714316,110.2681463",
     foto: [
       `${process.env.PUBLIC_URL}/images/mieayam1.jpg`,
       `${process.env.PUBLIC_URL}/images/mieayam2.jpg`,
