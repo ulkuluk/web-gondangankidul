@@ -116,6 +116,20 @@ export const umkmData = [
       `${process.env.PUBLIC_URL}/images/mebel3.jpg`
     ]
   },
+  {
+    id: 6,
+    nama: "Mie Ayam Ijo",
+    jenis: "Kuliner",
+    alamat: "Dekat Balai Dusun",
+    kontak: "+6285865341028",
+    deskripsi: "Usaha kuliner yang menyajikan mie ayam dengan cita rasa khas",
+    koordinat: "-7.671640,110.273248",
+    foto: [
+      `${process.env.PUBLIC_URL}/images/mieayam1.jpg`,
+      `${process.env.PUBLIC_URL}/images/mieayam2.jpg`,
+      `${process.env.PUBLIC_URL}/images/mieayam3.jpg`
+    ]
+  },
 ];
 
 export const tempatPenting = [
